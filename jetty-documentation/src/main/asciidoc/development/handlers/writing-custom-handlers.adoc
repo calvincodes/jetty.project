@@ -173,8 +173,8 @@ This is typically used to pass a request to a link:{JDURL}/org/eclipse/jetty/ser
 [[injecting-handlers]]
 ==== Injecting Handlers
 
-The `Handler` needs to be added to the server classpath as described link:https://www.eclipse.org/jetty/documentation/current/startup-classpath.html[here].
-Then it can be added to the server, either by overriding some existing XML configuration files such as jetty.xml as shown below, or by defining a custom module as described link:https://www.eclipse.org/jetty/documentation/current/custom-modules.html[here].
+The `Handler` needs to be added to the server classpath as described in xref:startup-classpath[].
+Then it can be added to the server, either by overriding some existing XML configuration files such as `jetty.xml` as shown below, or by defining a custom module as described in xref:custom-modules[].
 
 [source, xml]
 ----
@@ -188,8 +188,6 @@ Then it can be added to the server, either by overriding some existing XML confi
     </Call>
 </Configure>
 ----
-
-* The Handler needs to be added to the server classpath as described link:https://www.eclipse.org/jetty/documentation/current/startup-classpath.html[here].
 
 [[more-about-handlers]]
 ==== More About Handlers
